@@ -84,34 +84,34 @@ ScrollTrigger.matchMedia({
          duration:3,
          opacity:1,
      })   
-       
+     let tl = gsap.timeline(
+        {    scrollTrigger:{
+                trigger:".box1",
+                start:"bottom center",
+                end:"bottom 20%",
+                toggleActions:"restart pause reverse reset",
+                toggleClass:"black",
+                scrub:1,
+           
+                
+            }}
+        )
+    
+        tl.to(".box1",{
+            y:-200,
+            duration:1,
+            opacity:0
+        })
+    
+        tl.to(".box2",{
+            x:-700,
+            dueation:1,
+            opacity:0
+        })
     },
-
+    
    
         
 })
 
-let tl = gsap.timeline(
-    {    scrollTrigger:{
-            trigger:".box1",
-            start:"bottom center",
-            end:"bottom 20%",
-            toggleActions:"restart pause reverse reset",
-            toggleClass:"black",
-            scrub:1,
-       
-            
-        }}
-    )
 
-    tl.to(".box1",{
-        y:-200,
-        duration:1,
-        opacity:0
-    })
-
-    tl.to(".box2",{
-        x:-700,
-        dueation:1,
-        opacity:0
-    })
