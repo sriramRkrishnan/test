@@ -1,0 +1,52 @@
+/* small screen */
+@media only screen and (max-width: 600px){
+    .home{
+        height: auto;
+    }
+    
+    .about{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        padding: 2rem;
+    }
+    .abt-img{
+        width: 30rem;
+    }
+    
+    .services{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 1rem;
+    }
+
+    .delivery{
+        height: auto;
+    }
+    .card{
+        margin-top: 1rem;
+    }
+    .testimonials{
+        height: auto;
+        padding: 20px;
+    }
+    .form{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+    .img{
+        display: none;
+    }
+    .form-area{
+        width: 100%;
+        padding: 2rem;
+        text-align: center;
+    }
+    .list{
+        display: none;
+    }
+}

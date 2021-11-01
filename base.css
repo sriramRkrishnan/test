@@ -1,0 +1,195 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+  
+}
+a{
+    text-decoration: none;
+    
+}
+.header{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 1rem;
+    border-bottom: 0.5px solid rgb(189, 45, 233);
+    padding-bottom: 1rem;
+    flex-wrap: wrap;
+}
+
+.logo-title{
+    text-decoration: none;
+    
+
+}
+
+.menu{
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.menu:hover{
+    font-weight: 700;
+}
+
+.home{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 85vh;
+    flex-wrap: wrap;
+    padding: 20px;
+    text-align: center;
+    
+
+
+}
+.b-img{
+    width: 80%;
+}
+.hero-text{
+    font-weight: 400;
+    margin: 50px;
+}
+
+.link-1{
+    text-transform: capitalize;
+    background-color: rgb(105, 7, 151);
+    padding: 10px 30px;
+    color: white;
+    border-radius: 30px;
+}
+
+.links{
+    margin: 2rem 0.5rem;
+}
+.about{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    background-color: bisque;
+}
+
+.abt-img{
+    width: 40rem;
+}
+.abt-title{
+    color: blue;
+    text-transform: capitalize;
+}
+.abt-head{
+    text-transform: capitalize;
+}
+
+.delivery{
+    height: 100vh;
+    text-align: center;
+    flex-wrap: wrap;
+   
+}
+.mt-3{
+    padding-top: 5rem;
+}
+
+.delivery-title{
+    padding-top: 5rem;
+}
+
+.delivery-head{
+    margin-top: 2rem;
+}
+
+.services{
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+   
+}
+
+.card{
+    width: 250px;
+    padding: 2rem;
+    border: 2px solid rgb(99, 65, 180);
+    margin-left: 2rem;
+}
+
+.testimonials{
+    height: 100vh;
+    text-align: center;
+    background-color: beige;
+    flex-wrap: wrap;
+    
+   
+}
+.test-title{
+    padding-top: 2rem;
+}
+.test-review{
+    display: flex;
+    margin: 5rem;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.review-card{
+    width: 20rem;
+    margin-top: 2rem;
+    background-color: whitesmoke;
+    border: 1px solid gray;
+    padding: 20px;
+    border-radius: 50px;
+}
+.re-img{
+    width: 10rem;
+   
+}
+.form{
+    height: 100vh;
+    background-color: whitesmoke;
+    display: flex;
+  
+}
+.form-area{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    justify-content: center;
+    padding: 0px 50px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+}
+.form-card{
+    text-align: center;
+}
+.form-head{
+    margin: 35px 0px;
+}
+.form-para{
+    margin-bottom: 25px;
+}
+
+.input{
+    border: 1px solid skyblue;
+    padding: 10px 25px;
+    margin-bottom: 10px;
+}
+
+.img{
+    width: 950px;
+    
+}
+
+.fab{
+    color: gray;
+    margin-left: 5px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: rgb(253, 253, 253);
+    
+}
